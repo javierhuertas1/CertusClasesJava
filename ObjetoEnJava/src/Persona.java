@@ -6,13 +6,6 @@ public class Persona {
     private int numeroCelular;
     private String direccion;
 
-    
-
-   
-
-
-
-
     public Persona(String nombre , int edad) {
         this.nombre = nombre;
         this.edad = edad;
@@ -22,7 +15,6 @@ public class Persona {
         
     }
 
-
     public Persona(String nombre , int edad , int dni , int numeroCelular , String direccion){
         this.nombre = nombre;
         this.edad = edad;
@@ -30,20 +22,6 @@ public class Persona {
         this.numeroCelular = numeroCelular;
         this.direccion = direccion;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public String getNombre() {
         return nombre;
@@ -76,6 +54,6 @@ public class Persona {
         this.direccion = direccion;
     }
 
- 
+    
 
 }

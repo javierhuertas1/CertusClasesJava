@@ -27,6 +27,8 @@ public class App {
             System.out.println("El numero celular de la persona 3 es "+persona3.getNumeroCelular());
             System.out.println("El direccion de la persona 3 es "+persona3.getDireccion());
 
+            
+
 
 
 
