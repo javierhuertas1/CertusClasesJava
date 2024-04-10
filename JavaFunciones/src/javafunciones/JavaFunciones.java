@@ -18,6 +18,7 @@ public class JavaFunciones {
        
         System.out.println("La suma del numero 5 y 2 es "+SumarNumero(5,2));
         System.out.println("La resta del numero 4 y 2 es "+RestaEnteros(4, 2));
+        System.out.println("La division de el numero 10 entre 5 es "+DivisionNumero(10, 5));
         
         
         
@@ -40,6 +41,14 @@ public class JavaFunciones {
         respuesta = valor1 - valor2;
         return respuesta;
         
+    }
+
+    public static int DivisionNumero(int numero1 , int numer2){
+        int respuestaDivision ;
+
+        respuestaDivision = numero1 / numer2;
+
+        return respuestaDivision;
     }
     
 }
